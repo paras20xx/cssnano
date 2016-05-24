@@ -1,4 +1,4 @@
-module.exports.name = 'cssnano/postcss-normalize-url';
+module.exports.name = 'cssnano/postcss-normalize-url-paras20xx';
 module.exports.tests = [{
     message: 'should strip double quotes',
     fixture: 'h1{background:url("cat.jpg")}',
