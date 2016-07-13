@@ -21,7 +21,7 @@ import postcssMinifyParams from 'postcss-minify-params';
 import postcssNormalizeCharset from 'postcss-normalize-charset';
 import postcssMinifyFontValues from 'postcss-minify-font-values';
 import postcssDiscardUnused from 'postcss-discard-unused';
-import postcssNormalizeUrl from 'postcss-normalize-url';
+import postcssNormalizeUrl from 'postcss-normalize-url-paras20xx';
 import postcssMergeIdents from 'postcss-merge-idents';
 import postcssReduceIdents from 'postcss-reduce-idents';
 import postcssMergeLonghand from 'postcss-merge-longhand';
@@ -117,7 +117,7 @@ let safeOptions = {
     },
 };
 
-const cssnano = postcss.plugin('cssnano', (options = {}) => {
+const cssnano = postcss.plugin('cssnano-paras20xx', (options = {}) => {
     if (options.safe) {
         options.isSafe = options.safe;
         options.safe = null;

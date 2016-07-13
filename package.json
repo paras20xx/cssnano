@@ -1,5 +1,5 @@
 {
-  "name": "cssnano",
+  "name": "cssnano-paras20xx",
   "version": "3.7.3",
   "description": "A modular minifier, built on top of the PostCSS ecosystem.",
   "main": "dist/index.js",
@@ -46,7 +46,7 @@
     "postcss-minify-params": "^1.0.4",
     "postcss-minify-selectors": "^2.0.4",
     "postcss-normalize-charset": "^1.1.0",
-    "postcss-normalize-url": "^3.0.7",
+    "postcss-normalize-url-paras20xx": "3.0.7-patch2",
     "postcss-ordered-values": "^2.1.0",
     "postcss-reduce-idents": "^2.2.2",
     "postcss-reduce-initial": "^1.0.0",
